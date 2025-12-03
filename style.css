@@ -2,3 +2,160 @@
     margin: 0px;
     padding: 0px;
 }
+
+.header{
+background-image:  linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.6)), url(https://i.pinimg.com/736x/c6/1b/87/c61b874f0374861b4b0bc970741dbe18.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height:550px ;
+    color: white;
+    position: relative;
+}
+.head{
+    
+    width: 99%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.ko{
+    display: flex;
+    gap: 15px;
+}
+
+.ko img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.tek{
+    margin-top: 15px;
+}
+
+.tek h1{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.tek p{
+    font-size: 19px;
+    font-weight: normal;
+
+    
+}
+
+.header ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 30px;
+    
+}
+
+
+
+.header h2{
+   
+    margin-top: 70px;
+     margin-left: 280px;
+     font-size: 60px;
+     font-weight: bold;
+}
+.header h6{
+   
+    margin-top:15px;
+     margin-left: 290px;
+     font-weight: normal;
+     font-size: 20px;
+}
+.header button{
+ 
+    margin-top: 20px;
+    margin-left: 530px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    color: #2C7ABE;
+    border: none;
+}
+
+.pos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  margin-left: 80px;
+  margin-top: 50px;
+ 
+}
+
+.box1{
+    
+    width: 300px;
+    height: 150px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.box1 i{
+margin-left: 130px;
+margin-top: 20px;
+}
+
+.box1 h1{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+.box1 p{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.image{
+      width: 300px;
+    height: 400px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);;
+    border-radius: 10px;
+    border: none;
+    margin-left: 90px;
+}
+
+.image img{
+    width: 300px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.image h5{
+       margin-top: 20px;
+    margin-left: 530px;
+    width: 40px;
+    height: 20px;
+    color: white;
+    background-color: green;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+.image button{
+     margin-top: 20px;
+    margin-left: 530px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #2C7ABE;
+    border: none;
+    color: white;
+}
