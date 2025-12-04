@@ -10,7 +10,7 @@ background-size: cover;
 background-repeat: no-repeat;
 height:550px ;
     color: white;
-    position: relative;
+    
 }
 .head{
     
@@ -58,6 +58,7 @@ height:550px ;
     list-style: none;
     margin-top: 30px;
     margin-right: 30px;
+    cursor: pointer;
     
 }
 
@@ -87,12 +88,22 @@ height:550px ;
     color: #2C7ABE;
     border: none;
 }
-
+.pof{
+    background-color: white;
+    width: 1000px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 100px;
+    position: relative;
+}
 .pos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-  margin-left: 80px;
+  margin-left: 120px;
   margin-top: 50px;
+  position: absolute;
+  gap: 30px;
+  top: 370px;
  
 }
 
@@ -122,40 +133,159 @@ margin-top: 20px;
     margin-left: 15px;
 }
 
-.image{
+.popular{
+    margin-top: 120px;
+    justify-content: center;
+}
+
+.popular h1{
+    margin-top: 50px;
+    margin-left: 410px;
+    font-weight: bold;
+    font-size: 40px;
+   
+}
+
+.popular p{
+    margin-top: 20px;
+    margin-left: 410px;
+    
+}
+
+.ho{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    
+}
+
+.ru{
       width: 300px;
-    height: 400px;
+    height: 350px;
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);;
-    border-radius: 10px;
-    border: none;
     margin-left: 90px;
+    position: relative;
 }
 
 .image img{
     width: 300px;
-    border-radius: 10px;
+    border-radius: 0px  0px 0px 0px ;
     height: 200px;
 }
 
-.image h5{
+.text h5{
        margin-top: 20px;
-    margin-left: 530px;
     width: 40px;
     height: 20px;
     color: white;
     background-color: green;
     padding-left: 10px;
     padding-top: 10px;
+    position: absolute;
+    top: 10px;
 
 }
+.text h1{
+font-size: 20px;
+font-weight: bold;
+margin-left: 10px;
+margin-top: 10px;
+}
+.text p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
 
-.image button{
+.text button{
      margin-top: 20px;
-    margin-left: 530px;
-    width: 200px;
+    width: 280px;
     height: 40px;
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: #2C7ABE;
     border: none;
     color: white;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profeesional {
+     margin-top: 120px;
+    
+  
+}
+
+.profeesional h1{
+     margin-top: 50px;
+    margin-left: 270px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.profeesional p{
+     margin-top: 30px;
+    margin-left: 360px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.lop{
+    display: flex;
+    gap: 10px;
+    margin: 50px;
+
+}
+
+.poki{
+    width: 500px;
+    height: 600px;
+    
+}
+
+.poki h1{
+    font-size: 20px;
+    margin-left: 90px;
+    
+}
+
+.poki img{
+    border-radius: 50%;
+    width: 500px;
+    height: 600px;
+    margin-top: -110px;
+}
+
+.qor{
+     width: 600px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);;
+    background-color: #F9F9F9;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.cas{
+    display: flex;
+    gap: 10px;
+   
+}
+
+.cas h1{
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+.cas i{
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.kio{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.im img{
+    width: 200px;
+    height: 200px;
 }
