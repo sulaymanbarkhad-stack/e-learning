@@ -13,6 +13,10 @@
     display: flex;
     gap: 15px;
 }
+a{
+  text-decoration: none;
+  color: white;
+}
 
 .ko img{
     width: 40px;
