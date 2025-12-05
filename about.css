@@ -90,9 +90,10 @@ margin-left: 50px;
   height: 400px;
   width: 50%;
   background-color:white;
-  padding-top: 30px;
-  padding-left: 20px;
+  padding-top: 60px;
+  padding-left: 50px;
   line-height: 1.5;
+
 
 }
 
@@ -128,24 +129,28 @@ margin-left: 50px;
   display:grid;
   grid-template-columns: repeat(2,1fr);
   gap:80px;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
 }
 .sawir img{
   width: 150px;
-  height: 150px;
-  padding-left: 20px;
+  height: 170px;
+  /* padding-left: 20px; */
   
 }
 .cards{
   display: flex;
   line-height: 1.5;
   gap: 20px;
+  background-color: #cedbdb;
 
 }
 .info{
   padding-top: 30px;
      
 
+}
+.social i{
+  color: #0056d6;
 }
 .num{
   text-align: center;
@@ -174,7 +179,13 @@ padding-top: 20px
 .container{
   max-width:1100px;
   margin:0 auto;
-  margin-top: 30px;
+  margin-top: 40px;
+}
+.container h1{
+  text-align: center;
+  /* padding-top: 20px; */
+  font-size: 30px;
+
 }
 
 /* two-column layout */
@@ -308,7 +319,7 @@ padding-top: 20px
     .hero-section h1{
         font-size: 28px;
     }
-}
+
 
 
 
