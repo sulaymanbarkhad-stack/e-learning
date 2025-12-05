@@ -293,3 +293,127 @@ margin-top: 10px;
     width: 200px;
     height: 200px;
 }
+
+
+
+
+
+
+.kor h1{
+  text-align: center;
+  font-size: 40px;
+  padding: 30px;
+  margin: 30px;
+}
+
+.dhaman{
+  display: flex;
+  gap: 150px;
+  margin: 30px;
+}
+
+
+.inside1{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  padding: 10px;
+  margin-left: 30px;
+}
+.inside2{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  padding: 10px;
+  margin-left: 30px;
+}
+.inside3{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.inside4{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.inside3{
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  box-shadow: 10px 10px 10px 10px whitesmoke;
+  padding: 10px;
+  margin-left: 30px;
+}
+
+
+.inside1 p{
+  font-size: 20px
+}
+.inside2 p{
+  font-size: 20px
+}
+.inside3 p{
+  font-size: 20px
+}
+.inside4 p{
+  font-size: 20px
+}
+
+.profile img{
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.profile{
+  display: flex;
+  margin-top: 30px;
+}
+
+
+
+
+.footer{
+  background-color: #0b11d1;
+  width: 100%;
+  height: 400px;
+  color: #f5f7f8;
+  padding-bottom: 10px;
+
+}
+
+.last button{
+  width: 170px;
+  height: 50px;
+  background-color: aqua;
+  border-radius: 20px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.last {
+  display: flex;
+  gap: 420px;
+  padding: 50px;
+  text-align: center;
+  padding-top: 90px;
+  align-items: center;
+}
+
+
+.rights{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}

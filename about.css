@@ -242,12 +242,12 @@ padding-top: 20px
   width: 100px;
   height: 80px;
   border-radius: 50%;
-  margin-top: 20px;
 }
 
 .profile{
   display: flex;
-  margin-top: 30px;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 
@@ -258,6 +258,7 @@ padding-top: 20px
   width: 100%;
   height: 400px;
   color: #f5f7f8;
+  padding-bottom:  10px;
 
 }
 
@@ -283,4 +284,5 @@ padding-top: 20px
   display: flex;
   justify-content: space-between;
   padding: 30px;
+  padding-bottom: 20px;
 }
