@@ -56,7 +56,7 @@ a{
 .nav1{
     display: flex;
     justify-content: space-between;
-    background-color: #27292d;
+    background-color: #154cb9;
 
 }
 .nav1 ul{
@@ -71,6 +71,8 @@ a{
     text-align: center;
     padding-bottom: 50px;
     line-height: 1.5;
+    margin-top: 30px;
+    font-size: 20px;
 }
 .img-text{
   display: flex;
